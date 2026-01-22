@@ -1,3 +1,14 @@
+## Context
+
+While working at Vogel Plant Pathology, we worked with multiple field plots,
+each containing a specific plant experiment. To evaluate overall success,
+we measure both plant growth and final seed yield while keeping track of where
+each piece of data originated from. 
+
+While intended to work sequentially, each part of the pipeline can be used
+independently if only a specific stage is needed.
+
+
 ## Problem Statements and how this pipeline solves them
 
 ### LabelGen
