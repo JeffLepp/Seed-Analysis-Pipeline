@@ -1,5 +1,8 @@
 # Seed Pipeline Source Repo
 
+To evaluate overall success of an experimental plot, researchers often measure 
+both plant growth and final seed yield. this pipeline is designed to make the latter 
+as efficient as possible since tracking & analysis of many plots can be arduous.
 
 ## Pipeline Components
 
@@ -29,7 +32,7 @@
             ↓
    Quantitative Metrics
             ↓
-  Determine crop success
+  Determine plot success
 ```
 
 ![Seed Pipeline Overview](assets/pipeline-flow.png)
