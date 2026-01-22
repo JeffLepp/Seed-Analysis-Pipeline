@@ -1,6 +1,6 @@
 # Architecture
 
-This umbrella repo documents a 3-part seed pipeline:
+This repository documents three independent tools that together reduce time from field seed collection to quantitative metrics:
 LabelGen → Parallel-Scanning → SeedSizer.
 
 ## LabelGen (Part 1: Labels + QR)
@@ -23,6 +23,7 @@ LabelGen → Parallel-Scanning → SeedSizer.
     **Output:**
     - A print-ready PDF named AveryLabels.pdf; temporary QR images are deleted after PDF creation.
 
+
 ## Parallel-Scanning (Part 2: Image Acquisition)
 
     **Input:**
@@ -39,6 +40,7 @@ LabelGen → Parallel-Scanning → SeedSizer.
 
     **Outputs:**
     - Output is a date-stamped folder of TIFF images organized by scanner color under ~/SeedScans/YYYY-MM-DD/.
+
 
 ## SeedSizer (Part 3: Image-Based Phenotyping)
 

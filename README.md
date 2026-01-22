@@ -1,6 +1,7 @@
 # Seed Pipeline Source Repo
 
-![Seed Pipeline Overview](assets/pipeline-flow.png)
+Operational assumptions are documented in docs/constraints.md.
+
 
 ## Context
 
@@ -29,6 +30,9 @@ independently if only a specific stage is needed.
             ↓
   Determine crop success
 ```
+
+![Seed Pipeline Overview](assets/pipeline-flow.png)
+
 
 ## Pipeline Components
 
