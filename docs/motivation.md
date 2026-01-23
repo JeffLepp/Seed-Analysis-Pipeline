@@ -31,7 +31,7 @@ independently if only a specific stage is needed.
                 resolution images for analysis. To increase data through-put, you can use
                 multiple scanners on the same computer and control them with a simple script.
                 But this will only allow for sequential scanner (one scanner to run at a time). 
-                Each high-resolution scan takes ~2 mins, so **8 scanners would take 16 minutes 
+                Each high-resolution scan takes ~2 mins, so 8 scanners would take **16 minutes 
                 just for 8 scans.** 
 
     Solution:   A guide & source-code on how to orchestrate scanners running in parralel. Despite
